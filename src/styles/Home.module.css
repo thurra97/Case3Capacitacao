@@ -276,3 +276,52 @@
     transform: rotate(0deg);
   }
 }
+
+.nav_index {
+  font-family: Georgia, serif; 
+  font-size: 1.5rem;
+  justify-content: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 100%;
+  height: 533px;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(220, 147, 246, 0.7);
+
+}
+.calendar{
+  width:5rem;
+  height: 5rem;
+  top: 200rem
+}
+
+.time_picker_buttons_container {
+  display: flex;
+  justify-content: flex-start;
+  position:relative;
+  left: 90rem
+}
+
+.time_picker_column {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.time_picker_button {
+  cursor: pointer;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+  background-color: white;
+}
+
+.time_picker_button:hover {
+  background-color: lightgray;
+}
